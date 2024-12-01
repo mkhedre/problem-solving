@@ -1,0 +1,33 @@
+.shadow {
+  background-color: rgb(109, 109, 184);
+  text-shadow: 2 5 red;
+  text-align: center;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.aspect {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  color: aliceblue;
+}
+.video {
+  min-width: 100%;
+  min-height: 100%;
+}
+.content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+.content h1 {
+  font-size: 44px;
+  text-transform: capitalize;
+}
+.content p {
+  font-size: 24px;
+  text-transform: capitalize;
+}
